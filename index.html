@@ -2,16 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ComeBack Games</title>
-  <link rel="stylesheet" href="style.css">
+  <title>insertDevName</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    svg {
+      margin-top: 40px;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin: 30px auto;
+    }
+
+    h2 {
+      color: #00ff00;
+      margin-top: 40px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-  <h1><a href="https://github.com/ComeBackGames">ComeBack Games</a></h1>
-  <p>Welcome to my developer portfolio!</p>
-  <p>Check out my projects below 👇</p>
-  <ul>
-    <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-    <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-  </ul>
+
+  <!-- Arched Username -->
+  <svg width="500" height="150">
+    <defs>
+      <path id="arcPath" d="M50,150 A200,200 0 0,1 450,150" />
+    </defs>
+    <text fill="lime" font-size="28" font-weight="bold">
+      <textPath href="#arcPath" startOffset="50%" text-anchor="middle">
+        insertDevName
+      </textPath>
+    </text>
+  </svg>
+
+  <!-- Logo Image -->
+  <img src="logo.png" alt="Game Logo" class="logo">
+
+  <!-- Subheader and Paragraph -->
+  <h2>What is insertDevName</h2>
+  <p>
+    I'm a part-time solo developer currently working on casual mobile games.  
+    I love crafting simple, fun experiences that anyone can pick up and enjoy.
+  </p>
+
 </body>
 </html>
